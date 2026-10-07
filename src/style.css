@@ -405,7 +405,9 @@ select {
 /* ---------- Diálogo ---------- */
 
 dialog {
-  width: min(480px, calc(100vw - 32px));
+  width: min(560px, calc(100vw - 32px));
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
   border: none;
   border-radius: 12px;
   padding: 24px;
@@ -470,6 +472,21 @@ dialog li small {
 
 .tipo.ok { background: var(--ok); }
 .tipo.falta { background: var(--alerta); }
+
+.ementa p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.ementa .fonte {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+}
+
+.ementa .fonte-descricao::before {
+  content: "⚠ ";
+}
 
 .fechar {
   position: absolute;

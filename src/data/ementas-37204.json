@@ -1,0 +1,294 @@
+{
+  "65639": {
+    "fonte": "descricao",
+    "texto": "Fundamentos teóricos da computação: lógica, conjuntos, relações e funções. Técnicas de prova. Linguagens formais e autômatos finitos. Gramáticas. Máquinas de Turing. Problemas decidíveis e indecidíveis. Noções de complexidade computacional."
+  },
+  "65642": {
+    "fonte": "oficial",
+    "origem": "Desenvolvimento de Interfaces Web (Engenharia de Software, currículo 37203)",
+    "texto": "Evolução e tendências. W3C. Arquitetura, linguagens e padrões da Web. Fundamentos e técnicas de construção de interfaces. Ambientes de desenvolvimento e frameworks de front end."
+  },
+  "63930": {
+    "fonte": "descricao",
+    "texto": "Introdução à filosofia e ao pensamento lógico. Argumentação: premissas, conclusões, validade e falácias. Lógica clássica e raciocínio dedutivo e indutivo. Pensamento crítico na análise de informações, discursos e problemas contemporâneos, incluindo os ligados à tecnologia."
+  },
+  "65644": {
+    "fonte": "equivalente",
+    "origem": "Fundamentos da Engenharia de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos de sistemas de software. Componentes e relacionamento de sistemas de software. Fundamentos e classificação de sistemas de software. Conceitos básicos de Engenharia de Software. Processo de desenvolvimento de software. Métodos e técnicas para Engenharia de Software."
+  },
+  "65638": {
+    "fonte": "equivalente",
+    "origem": "Algoritmos e Estruturas de Dados I (Engenharia de Software, currículo 37203)",
+    "texto": "Representação e armazenamento de dados. Manipulação e movimentação de dados em memória principal e secundária. Abstração de dados. Estruturas e abstração de controle. Modularização, encapsulamento e herança. Recursividade. Documentação e testes. Implementação em linguagem de programação. Contagem de operações."
+  },
+  "65645": {
+    "fonte": "oficial",
+    "origem": "Introdução a Computação (Engenharia de Software, currículo 37203)",
+    "texto": "Pesquisa, Ensino, Extensão, Inovação e Mercado. História da computação. Fundamentos de Computabilidade. Linguagens de programação. Principais áreas da Computação. Computação Verde. Práticas de extensão. Atividades de extensão com integração entre academia e saberes da sociedade."
+  },
+  "65649": {
+    "fonte": "equivalente",
+    "origem": "Trabalho Interdisciplinar: Aplicações Web (Engenharia de Software, currículo 37203)",
+    "texto": "Desenvolvimento de uma aplicação web front end usando um processo incremental e iterativo. Trabalho e avaliação em equipe."
+  },
+  "71605": {
+    "fonte": "oficial",
+    "origem": "Arquitetura de Computadores (Engenharia de Software, currículo 37203)",
+    "texto": "Modelos para representação de dados e aritmética computacional em nível de máquina. Introdução às funções e aos sistemas lógicos. Organização de sistemas de computação e dos subsistemas (processador, memória, entrada e saída, barramentos). Linguagem de montagem, conjunto de instruções e modos de endereçamento. Avaliação de desempenho. Hierarquia de memória. Modelos de arquiteturas sequenciais e paralelas."
+  },
+  "71607": {
+    "fonte": "oficial",
+    "origem": "Cálculo I (Ciência de Dados, currículo 101602)",
+    "texto": "Funções: polinomiais, racionais, algébricas, exponenciais, logarítmicas, trigonométricas. Limites. Continuidade. Derivada: definição e interpretações. Regras de derivação. Derivação implícita. Aplicações da derivada: taxas relacionadas, regra de L'Hospital, estudo do comportamento de funções, esboço de gráficos e otimização. Aplicações práticas."
+  },
+  "71608": {
+    "fonte": "equivalente",
+    "origem": "Desenvolvimento de Aplicações Web (Ciência da Computação, currículo 5511)",
+    "texto": "Conceitos de web. Arquitetura e padrões web. Clientes e servidores de web. Introdução ao desenvolvimento web e seus padrões. Desenvolvimento Full Stack: front-end, back-end e frameworks."
+  },
+  "71606": {
+    "fonte": "oficial",
+    "origem": "Interação Humano-Computador (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos básicos de Interação Humano-Computador. Engenharia cognitiva e abordagens semióticas. Fatores humanos em software interativo: teorias, princípios e regras básicas. Ciclo de vida na Engenharia da Usabilidade. Estilos de interface. Projeto e prototipação de interface e interação para diversos dispositivos. Definição e métodos para avaliação de usabilidade e acessibilidade. Atividades de extensão com integração entre academia e saberes da sociedade."
+  },
+  "71610": {
+    "fonte": "oficial",
+    "origem": "Introdução à Pesquisa em Informática (Engenharia de Software, currículo 37203)",
+    "texto": "Função da metodologia científica. Técnicas de pesquisa bibliográfica. Normalização do trabalho científico. Pesquisa bibliográfica como fundamentação teórica. Metodologias qualitativas de pesquisa em Informática. Metodologias quantitativas de pesquisa em Informática (métodos, descritivos, experimentais e estatísticos). Elaboração e execução de trabalhos científicos. Comunicação científica e resenhas."
+  },
+  "71611": {
+    "fonte": "descricao",
+    "texto": "Concepção e princípios da extensão universitária. Relação entre universidade e sociedade. Metodologias participativas para diagnóstico de demandas de comunidades e organizações. Planejamento, execução e avaliação de projetos de extensão aplicados à computação."
+  },
+  "71609": {
+    "fonte": "oficial",
+    "origem": "Programação Modular (Engenharia de Software, currículo 37203)",
+    "texto": "Fatores de qualidade de software. Modularidade. Projeto Orientado para Objetos. Polimorfismos de Inclusão e Paramétrico. Tipos enumeráveis e opcionais. Coleções. Tratamento de exceções. Programação Orientada a Eventos. Princípios SOLID. Padrões de projeto. Aspectos funcionais. Teste unitário. Serialização."
+  },
+  "71612": {
+    "fonte": "descricao",
+    "texto": "Desenvolvimento em equipe de uma aplicação web com foco no usuário, integrando os conteúdos de Interação Humano-Computador e de Desenvolvimento e Integração de Aplicações Web: levantamento de necessidades, prototipação, implementação de front-end e back-end e avaliação de usabilidade."
+  },
+  "71617": {
+    "fonte": "oficial",
+    "origem": "Bancos de Dados (Ciência de Dados, currículo 101602)",
+    "texto": "Conceitos de gerenciamento de bancos de dados. Arquitetura de um SGBD. Modelos de dados. Modelo de bancos de dados. Linguagens de definição, manipulação e controle de dados. Normalização e projeto físico de bancos de dados. Aspectos de segurança em banco de dados. Atividades de extensão com integração entre academia e saberes da sociedade."
+  },
+  "71614": {
+    "fonte": "oficial",
+    "origem": "Cálculo II (Engenharia de Software, currículo 37203)",
+    "texto": "Integral indefinida. Técnicas de Integração: substituição, por partes, trigonométricas, substituição trigonométrica e frações parciais. Integral definida: conceitos e Teorema Fundamental do Cálculo. Integrais impróprias. Aplicações de integrais nas Ciências Exatas e Engenharias. Superfícies. Funções de várias variáveis. Derivadas parciais. Aproximações lineares. Regra da cadeia. Derivadas direcionais e vetor gradiente. Valores máximos e mínimos. Aplicações de funções de várias variáveis nas Ciências Exatas e Engenharias."
+  },
+  "71615": {
+    "fonte": "oficial",
+    "origem": "Engenharia de Requisitos de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos de Engenharia de software. Conceitos e tipos de Processos de Software. Engenharia de requisitos. Métodos e técnicas para análise e especificação de softwares. Introdução às estimativas de software. Atividades de extensão com integração entre academia e saberes da sociedade."
+  },
+  "71613": {
+    "fonte": "equivalente",
+    "origem": "Algoritmos e Estruturas de Dados II (Engenharia de Software, currículo 37203)",
+    "texto": "Somatórios. Fundamentos de análise de algoritmos. Ordenação e pesquisa em memória principal. Tipos abstratos de dados lineares e flexíveis. Árvores. Balanceamento de árvores. Tabelas e Dicionários."
+  },
+  "71616": {
+    "fonte": "equivalente",
+    "origem": "Sistemas Operacionais (Engenharia de Software, currículo 37203)",
+    "texto": "Estrutura de um sistema operacional. Gerência de processos: processos, comunicação, escalonamento, multiprocessamento, programação concorrente. Sincronização de processos. Deadlock. Gerência de memória: memória virtual, paginação, segmentação, mudança de contexto, proteção. Gerenciamento de arquivos. Gerenciamento de dispositivos de entrada/saída. Sistemas Operacionais Atuais. Virtualização de Armazenamento. Simulação de Sistemas. Escalabilidade."
+  },
+  "71621": {
+    "fonte": "equivalente",
+    "origem": "Trabalho Interdisciplinar: Aplicações para Sustentabilidade (Engenharia de Software, currículo 37203)",
+    "texto": "Planejamento do projeto de software. Detalhamento dos requisitos de um software. Produção de artefatos de projeto e desenvolvimento de software. Atividades de extensão com integração entre academia e saberes da sociedade na finalidade do desenvolvimento dos artefatos de software aplicados à projetos para sustentabilidade."
+  },
+  "71643": {
+    "fonte": "oficial",
+    "origem": "Algoritmos em Grafos (Sistemas de Informação, currículo 11816)",
+    "texto": "Representação, caminhos, busca, árvores, conectividade, isomorfismo, planaridade, coloração, particionamento e fluxo em redes. Prova e demonstração de teoremas. Modelagem de problemas."
+  },
+  "71646": {
+    "fonte": "descricao",
+    "texto": "Cultura e princípios DevOps. Colaboração entre desenvolvimento e operações. Controle de versão e fluxos de trabalho com Git. Integração e entrega contínuas (CI/CD). Automação de build e testes. Contêineres e infraestrutura como código. Monitoramento e feedback contínuo."
+  },
+  "71644": {
+    "fonte": "descricao",
+    "texto": "Planejamento de carreira em um mercado global de tecnologia. Competências técnicas e comportamentais valorizadas internacionalmente. Comunicação profissional, currículo e networking. Trabalho em equipes distribuídas e multiculturais. Oportunidades de intercâmbio, certificações e atuação no exterior."
+  },
+  "71623": {
+    "fonte": "oficial",
+    "origem": "Gerência de Projetos de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Conceito de gerência de projeto de software. Planejamento de projeto. Gerência de recursos. Controle de projetos. Processo de gerência de projetos. Modelos para gerencia de projetos. Utilização de softwares para planejamento e acompanhamento de projetos."
+  },
+  "71652": {
+    "fonte": "descricao",
+    "texto": "Gerência dos requisitos ao longo do ciclo de vida do software. Priorização, negociação e versionamento de requisitos. Rastreabilidade. Controle de mudanças e análise de impacto. Ferramentas de apoio. Gestão de backlog em processos ágeis."
+  },
+  "71650": {
+    "fonte": "descricao",
+    "texto": "Disciplina de livre escolha do aluno, entre as optativas oferecidas pelo curso no semestre. O conteúdo depende da optativa cursada."
+  },
+  "71627": {
+    "fonte": "oficial",
+    "origem": "Projeto de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Conceituação de projeto de software. Introdução à Arquitetura de Software. Organização e projeto das camadas de negócios, serviços e dados. Modelagem estrutural e comportamental. Padrões de Projeto. Qualidade de projeto."
+  },
+  "71648": {
+    "fonte": "oficial",
+    "origem": "Redes de Computadores (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos básicos de redes de computadores. Redes sem fio e cabeadas. Protocolo IP e endereçamento. Protocolos de transporte: TCP e UDP. Aplicações. Redes Multimídia. Arquitetura de Infraestrutura de TI. Virtualização. Computação em Nuvem. Comunicação entre dispositivos inteligentes."
+  },
+  "71654": {
+    "fonte": "descricao",
+    "texto": "Desenvolvimento em equipe de um sistema implantado em ambiente de produção, integrando os conteúdos do período: projeto de software, gerência de projetos, práticas DevOps, pipelines de CI/CD, infraestrutura de redes e operação do sistema."
+  },
+  "71664": {
+    "fonte": "equivalente",
+    "origem": "Projeto e Análise de Algoritmos (Ciência de Dados, currículo 101602)",
+    "texto": "Classes de complexidade e crescimento assintótico de funções. Relação de recorrência. Análise de algoritmos iterativos e recursivos. Teorema Mestre. Técnicas de Projeto de Algoritmos. Tratabilidade de problemas. Teoria da Complexidade. Teorema de Cook."
+  },
+  "71657": {
+    "fonte": "oficial",
+    "origem": "Desenvolvimento de Aplicações Móveis (Sistemas de Informação, currículo 11816)",
+    "texto": "Fundamentos de computação móvel. Computação ubíqua e pervasiva. Modelos de arquiteturas para aplicações móveis. Problemas e limitações relacionados à mobilidade e à modalidade de comunicação. Middlewares para aplicações móveis. Linguagens, ambientes e ferramentas para o desenvolvimento de aplicações móveis."
+  },
+  "71666": {
+    "fonte": "oficial",
+    "origem": "Engenharia Econômica para Software (Engenharia de Software, currículo 37203)",
+    "texto": "Estimativa por pontos de função; Estimativa por dados históricos; Modelo COCOMO; Modelos empíricos de estimativa de software. Proposta técnica. Contratos de aquisição de software e serviços. Analise de viabilidade técnica e econômica. Retorno sobre investimento (ROI). Licença, Patente e propriedade intelectual ou industrial."
+  },
+  "71656": {
+    "fonte": "oficial",
+    "origem": "Estatística e Probabilidade (Engenharia de Software, currículo 37203)",
+    "texto": "Estatística descritiva. Probabilidade. Variáveis aleatórias. Distribuições discretas. Distribuições contínuas. Inferência estatística: estimação, intervalos de confiança e testes de hipóteses. Regressão linear."
+  },
+  "71662": {
+    "fonte": "equivalente",
+    "origem": "Inteligência Artificial (Ciência da Computação, currículo 75902)",
+    "texto": "Agentes inteligentes. Estratégias para resolução de problemas: busca com informação, busca local, e busca competitiva, problemas de satisfação de restrições. Raciocínio probabilístico e belief networks. Aprendizado supervisionado, não supervisionado e por reforço. Deep Learning. Mineração de Textos. Lógica Fuzzy. Análise de algoritmos para inteligência artificial. Atividades de extensão com integração entre academia e saberes da sociedade."
+  },
+  "71670": {
+    "fonte": "oficial",
+    "origem": "Gestão da Produção de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Caracterização da função planejamento da produção nas organizações. O PCP (Planejamento e Controle da Produção) na empresa. Conciliação entre suprimento e demanda. Parâmetros de Controle de Produção. Fundamentos da qualidade. Produção Enxuta (Lean Manufacturing)."
+  },
+  "71660": {
+    "fonte": "oficial",
+    "origem": "Sistemas Distribuídos e Computação em Nuvem (Ciência de Dados, currículo 101602)",
+    "texto": "Fundamentos de sistemas distribuídos. Middlewares. Virtualização: hipervisores e máquinas virtuais e conteiners. Computação em Nuvem. Modelos de distribuição de serviço em nuvens: IaaS, PaaS, FaaS, SaaS. Consistência, replicação e tolerância à falha. Escalabilidade e Key-Value Sharding. Processamento de dados serverless. Computação ubíqua e pervasiva. Sistemas cientes de contexto."
+  },
+  "71671": {
+    "fonte": "equivalente",
+    "origem": "Trabalho Interdisciplinar: Aplicações Inovadoras (Tecnologia em Análise e Desenvolv. de Sistemas, currículo 130602)",
+    "texto": "Inovação: conceitos e tipos, inovação econômica, organizacional, de sustentabilidade. Tecnologias para desenvolvimento de aplicações, tecnologias emergentes."
+  },
+  "71674": {
+    "fonte": "oficial",
+    "origem": "Arquitetura de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos de Arquiteturas de Software. Requisitos Arquiteturais. Padrões arquiteturais. Modelos Baseados em Camadas, Componentes e Agentes. Arquiteturas: orientadas a mensagens, orientadas a serviços, para persistência de dados, de objetos distribuídos, para aplicações Web, para dispositivos móveis, para aplicações ubíquas."
+  },
+  "71675": {
+    "fonte": "equivalente",
+    "origem": "Ciência de Dados (Sistemas de Informação, currículo 11816)",
+    "texto": "Processo de aprendizado de máquina. Aprendizado supervisionado, não-supervisionado e por reforço. Frameworks e APIs de aprendizado de máquina. Tecnologias e métodos para recomendações. Processos de desenvolvimento de software orientado a dados. Ferramentas e aplicações de Deep Learning."
+  },
+  "71680": {
+    "fonte": "oficial",
+    "origem": "Modelagem e Avaliação de Desempenho (Engenharia de Software, currículo 37203)",
+    "texto": "Ciclo de vida, avaliação, modelagem e otimização de sistemas computacionais. Planejamento de capacidade. Curvas de desempenho teóricas e experimentais. Técnicas para avaliação de desempenho. Previsão de carga futura. Paradigmas de modelagem. Modelos de Markov e Teoria das filas. Modelos de sistemas computacionais. Simulação de modelos."
+  },
+  "71684": {
+    "fonte": "descricao",
+    "texto": "Disciplina de livre escolha do aluno, entre as optativas oferecidas pelo curso no semestre. O conteúdo depende da optativa cursada."
+  },
+  "71678": {
+    "fonte": "descricao",
+    "texto": "Princípios de segurança da informação aplicados ao desenvolvimento. Ciclo de vida de desenvolvimento seguro (SSDLC). Modelagem de ameaças. Vulnerabilidades comuns em aplicações (OWASP Top 10). Autenticação, autorização e criptografia. Codificação segura. Análise estática e dinâmica e testes de segurança. DevSecOps."
+  },
+  "71676": {
+    "fonte": "oficial",
+    "origem": "Teste de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Fundamentos de testes. Níveis de testes. Tipos de testes. Técnicas de projeto de testes. Ferramentas de suporte a testes. Automatização de testes. Projeto de casos de teste. Planos de testes. Gerenciamento do processo de testes. Registro e acompanhamento de problemas. Técnicas de verificação e validação de sistemas."
+  },
+  "71683": {
+    "fonte": "descricao",
+    "texto": "Tema atual na área de sistemas computacionais, definido a cada oferta."
+  },
+  "71688": {
+    "fonte": "descricao",
+    "texto": "Desenvolvimento em equipe de um sistema com arquitetura avançada (por exemplo, microsserviços, orientada a eventos ou distribuída em nuvem), integrando Arquitetura de Software, segurança, testes e avaliação de desempenho do período."
+  },
+  "70620": {
+    "fonte": "equivalente",
+    "origem": "Cultura Religiosa: Fenômeno Religioso (Engenharia de Software, currículo 37203)",
+    "texto": "O fenômeno religioso: experiência e linguagem. O fenômeno religioso como experiência específica: limites e possibilidades da experiência de Deus. As categorias fundamentais de interpretação e de linguagem do fenômeno religioso. Narrativas sagradas. A Bíblia em sua formação histórica, cultural e literária; os critérios de interpretação, os temas e as perspectivas de estudo e da experiência mística e de abertura que o livro sagrado propicia. O cristianismo e os desafios do diálogo ecumênico e inter-religioso no contexto de um mundo globalizado. História e fundamentos da cultura e tradições religiosas Afro Brasileira e Indígenas."
+  },
+  "71835": {
+    "fonte": "descricao",
+    "texto": "Princípios de design de interação e experiência do usuário (UX). Pesquisa com usuários, personas e jornadas. Arquitetura da informação. Design de interfaces (UI), prototipação de baixa e alta fidelidade e design systems. Acessibilidade. Avaliação da experiência do usuário."
+  },
+  "71691": {
+    "fonte": "oficial",
+    "origem": "Medição e Experimentação em Engenharia de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Métricas de software: conceito. Métricas objetivas e subjetivas; Métricas para processo, projeto e produto. Processo e Técnicas de medição e análise. Noções de confiabilidade metrológica. Controle estatístico de qualidade. Aplicação de técnicas estatísticas para análise de dados: análise fatorial, análise multivariada e testes de hipóteses. Estabilidade de processos. Princípios e técnicas para experimentação em Engenharia de Software. Planejamento e condução de experimentos."
+  },
+  "71694": {
+    "fonte": "descricao",
+    "texto": "Fundamentos matemáticos para especificação de software. Lógica de predicados aplicada. Linguagens de especificação formal. Modelagem formal de sistemas. Verificação de modelos (model checking). Pré e pós-condições, invariantes e prova de corretude de programas. Aplicações em sistemas críticos."
+  },
+  "71706": {
+    "fonte": "descricao",
+    "texto": "Estudo e apresentação de temas avançados e de pesquisa recente em Engenharia de Software, com leitura crítica de artigos científicos, seminários e discussão de tendências da área."
+  },
+  "71692": {
+    "fonte": "descricao",
+    "texto": "Princípios de Site Reliability Engineering. Confiabilidade e disponibilidade de sistemas. SLIs, SLOs, SLAs e orçamento de erros. Observabilidade: métricas, logs e rastreamento. Monitoramento e alertas. Resposta a incidentes e postmortems. Automação e redução de trabalho repetitivo. Planejamento de capacidade."
+  },
+  "71702": {
+    "fonte": "equivalente",
+    "origem": "Tópicos em Engenharia de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Tema atual na área de Engenharia de Software."
+  },
+  "71707": {
+    "fonte": "equivalente",
+    "origem": "Trabalho Interdisciplinar: Pesquisa em Engenharia de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Planejamento e execução de um experimento de Engenharia de Software."
+  },
+  "65491": {
+    "fonte": "descricao",
+    "texto": "Cidadania, direitos humanos e democracia. Responsabilidade social de pessoas, organizações e profissionais. Ética e impacto social da tecnologia. Diversidade e inclusão. Sustentabilidade e compromisso com a transformação da sociedade."
+  },
+  "70577": {
+    "fonte": "equivalente",
+    "origem": "Cultura Religiosa: Pessoa e Sociedade (Engenharia de Software, currículo 37203)",
+    "texto": "Fundamentação da práxis cristã. A categoria Pessoa em diálogo com categorias antropológicas contemporâneas. Temas atuais à luz do Humanismo Cristão: a família e a dimensão afetivo-sexual; o mundo do trabalho; ordem social e política, e a cidadania. O compromisso com o cuidado e a defesa da vida humana e ecológica, e as perspectivas de construção de uma nova ordem mundial, centrada na sustentabilidade, na justiça, no amor e na paz."
+  },
+  "71719": {
+    "fonte": "equivalente",
+    "origem": "Engenharia de Processos e Qualidade de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos de processos e produtos. Modelos de processos de software. Definição, personalização, institucionalização e avaliação de processos de desenvolvimento de software. Qualidade de Software: Normas e modelos de maturidade de processo de desenvolvimento de software. Avaliação de Qualidade e Certificação. Melhoria continua. Processos críticos."
+  },
+  "71007": {
+    "fonte": "oficial",
+    "origem": "Filosofia: Antropologia e Ética (Engenharia de Software, currículo 37203)",
+    "texto": "Concepções filosófico-antropológicas. O ser humano como ser no mundo e sua dimensão simbólico-cultural. A condição ética da ação humana. Questões éticas fundamentais e atuais, sociedade de consumo, diversidade étnica e desafios ecológicos."
+  },
+  "71718": {
+    "fonte": "equivalente",
+    "origem": "Gerência de Configuração e Evolução de Software (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos. Papéis, Artefatos e Atividades de Gerência de Configuração. Princípios de entrega contínua. Integração contínua. A cultura DevOps. Definição e projeto de Build. Ferramentas. Provisionamento de ambientes de desenvolvimento, produção, integração e testes. Princípios e técnicas de manutenção de software. Tipos de manutenções. Reengenharia."
+  },
+  "71836": {
+    "fonte": "equivalente",
+    "origem": "Modelagem de Processos de Negócios (Engenharia de Software, currículo 37203)",
+    "texto": "Conceitos de processos. Tipos de processos. Elementos do Processo. Gestão orientada a processos. Mapeamento e modelagem de processos. Metodologia para modelagem de processos de negócios. Definição de objetivos, metas e indicadores de desempenho. Tecnologias para gestão de processos. Metodologias para gestão e avaliação de processos dos negócios."
+  },
+  "71721": {
+    "fonte": "oficial",
+    "origem": "Qualidade de Software (Sistemas de Informação, currículo 8812)",
+    "texto": "Qualidade de Software: Normas e modelos de maturidade de processo de desenvolvimento de software. Definição, personalização, institucionalização e avaliação de processos de desenvolvimento de software. Métricas de software; Estimativas de tempo e custo de desenvolvimento."
+  },
+  "71722": {
+    "fonte": "oficial",
+    "origem": "Trabalho de Conclusão de Curso (Sistemas de Informação, currículo 11816)",
+    "texto": "Elaboração e apresentação oral e escrita do Trabalho de Conclusão de Curso."
+  }
+}

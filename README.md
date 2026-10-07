@@ -12,6 +12,7 @@ Grade curricular interativa de **Engenharia de Software da PUC Minas**, currícu
 - Pré e co-requisitos: ao passar o mouse, os requisitos ficam destacados (laranja = pré, roxo = co) e as disciplinas que dependem dela ficam com contorno tracejado
 - Alerta (!) quando uma disciplina está marcada sem o requisito cumprido, e 🔒 nas pendentes com pré-requisito em aberto
 - Progresso total em horas e disciplinas, e contador de atividades complementares
+- Ementa de cada disciplina no ícone ⓘ, indicando a fonte (veja abaixo)
 - Busca por nome ou código
 - Tema claro e escuro, de acordo com o sistema
 
@@ -22,6 +23,16 @@ Não há backend nem login:
 - **No navegador** (localStorage), salvo automaticamente.
 - **Na URL**: o progresso é codificado no `#` do endereço. Use **Copiar link** para abrir o mesmo estado em outro dispositivo ou para mostrar a alguém.
 - **Exportar e Importar** geram e leem um arquivo JSON de backup.
+
+## Ementas
+
+As ementas ficam em `src/data/ementas-37204.json`. A PUC ainda não publicou as ementas do currículo 37204, então cada uma indica a fonte:
+
+- **oficial** (26): ementa oficial de disciplina com o mesmo nome em outro currículo da PUC Minas, obtida da API do Grade Inteligente.
+- **equivalente** (18): ementa oficial de uma disciplina equivalente com outro nome (ex.: Estruturas de Dados ← Algoritmos e Estruturas de Dados II).
+- **descricao** (18): descrição não oficial, escrita a partir do nome e da área, para disciplinas novas sem equivalente (DevOps, SRE, Métodos Formais, Optativas etc.).
+
+Quando a PUC publicar as ementas oficiais, basta substituir o texto e mudar a `fonte` para `oficial`.
 
 ## Desenvolvimento
 

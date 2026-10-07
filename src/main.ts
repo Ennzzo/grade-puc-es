@@ -1,11 +1,26 @@
 import "./style.css";
 import { curriculos } from "./data/curriculos";
 import { carregar, idNaUrl, linkCompartilhavel, salvar, vazio } from "./progress";
-import type { Curriculo, Disciplina, Progresso, Status } from "./types";
+import type { Curriculo, Disciplina, Ementa, Progresso, Status } from "./types";
 
 const NOME_STATUS: Record<Status, string> = { 0: "Pendente", 1: "Cursando", 2: "Cursada" };
 /** Ordem do clique: pendente → cursada → cursando → pendente. */
 const PROXIMO: Record<Status, Status> = { 0: 2, 2: 1, 1: 0 };
+
+function renderEmenta(e: Ementa | undefined): string {
+  if (!e) return "";
+  const fonte = {
+    oficial: `Ementa oficial PUC Minas · ${e.origem}`,
+    equivalente: `Ementa oficial da disciplina equivalente ${e.origem}. O conteúdo pode variar no currículo novo.`,
+    descricao: "Descrição não oficial, baseada no nome e na área da disciplina. A PUC ainda não publicou a ementa deste currículo.",
+  }[e.fonte];
+  return `
+    <section class="ementa">
+      <h4>O que a disciplina aborda</h4>
+      <p>${e.texto}</p>
+      <p class="fonte fonte-${e.fonte}">${fonte}</p>
+    </section>`;
+}
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
 
@@ -179,6 +194,7 @@ function abrirDetalhes(codigo: string) {
   $("#detalhes-conteudo").innerHTML = `
     <h3>${d.nome}</h3>
     <p class="meta">Código ${d.codigo} · ${d.periodo}º período · ${d.ch} horas</p>
+    ${renderEmenta(cur.ementas?.[codigo])}
     <div class="opcoes" role="group" aria-label="Situação">
       ${([0, 1, 2] as Status[])
         .map((x) => `<button data-set="${x}" class="s${x} ${x === s ? "ativo" : ""}">${NOME_STATUS[x]}</button>`)
