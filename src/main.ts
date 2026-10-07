@@ -22,6 +22,10 @@ function renderEmenta(e: Ementa | undefined): string {
     </section>`;
 }
 
+const ICONE_CADEADO = `<svg class="cadeado" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"
+  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/>
+  <path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>`;
+
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
 
 let cur: Curriculo = curriculos.find((c) => c.id === idNaUrl()) ?? curriculos[0];
@@ -87,6 +91,7 @@ function renderCard(d: Disciplina): string {
          aria-label="${d.nome}: ${NOME_STATUS[s]}">
       <button class="info" data-info="${d.codigo}" aria-label="Detalhes de ${d.nome}">i</button>
       ${aviso ? `<span class="alerta" title="Requisito não cumprido">!</span>` : ""}
+      ${bloqueada ? `<span class="bloqueio" title="Pré-requisito pendente">${ICONE_CADEADO}</span>` : ""}
       <div class="nome">${d.nome}</div>
       <div class="rodape">${tags}<span>${d.ch} horas</span></div>
     </div>`;
