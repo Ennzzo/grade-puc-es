@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Acompanhe as disciplinas cursadas na grade de Engenharia de Software da PUC Minas." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <title>Grade Engenharia de Software</title>
+  </head>
+  <body>
+    <nav class="topo">
+      <div class="marca">GRADE<span>ES · PUC Minas</span></div>
+      <select id="curriculo" aria-label="Currículo"></select>
+      <input id="busca" type="search" placeholder="Pesquisar disciplina..." aria-label="Pesquisar disciplina" />
+      <div class="acoes">
+        <button id="copiar-link" title="Copia um link com o seu progresso">Copiar link</button>
+        <button id="exportar">Exportar</button>
+        <button id="importar">Importar</button>
+        <button id="limpar" class="perigo">Limpar</button>
+        <input id="arquivo" type="file" accept="application/json" hidden />
+      </div>
+    </nav>
+
+    <section class="resumo">
+      <div class="barra" aria-hidden="true">
+        <div id="barra-cursada" class="cursada"></div>
+        <div id="barra-cursando" class="cursando"></div>
+      </div>
+      <div class="linha">
+        <p id="resumo-texto"></p>
+        <label class="comp">
+          Ativ. complementares
+          <input id="complementares" type="number" min="0" inputmode="numeric" />
+          <span id="complementares-min"></span>
+          <span id="complementares-ok" class="ok" hidden>✓</span>
+        </label>
+      </div>
+      <ul class="legenda">
+        <li><span class="ponto s0"></span>Pendente</li>
+        <li><span class="ponto s1"></span>Cursando</li>
+        <li><span class="ponto s2"></span>Cursada</li>
+        <li class="dica">Clique no card para alternar · passe o mouse para ver requisitos</li>
+      </ul>
+    </section>
+
+    <main id="grade"></main>
+
+    <dialog id="detalhes">
+      <button class="fechar" data-fechar aria-label="Fechar">×</button>
+      <div id="detalhes-conteudo"></div>
+    </dialog>
+
+    <div id="toast" role="status"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+{
+  "id": "37204",
+  "curso": "Engenharia de Software",
+  "campus": "Campus Lourdes",
+  "turno": "Noite",
+  "inicio": "2026-01-01",
+  "cargaHorariaCurso": 4622,
+  "atividadesComplementaresMin": 83,
+  "periodos": [
+    {
+      "numero": 1,
+      "disciplinas": [
+        { "codigo": "65639", "nome": "Computabilidade", "ch": 72 },
+        { "codigo": "65642", "nome": "Desenvolvimento de Interfaces Web", "ch": 54 },
+        { "codigo": "63930", "nome": "Filosofia: Lógica e Pensamento Crítico", "ch": 36 },
+        { "codigo": "65644", "nome": "Fundamentos de Engenharia de Software", "ch": 90 },
+        { "codigo": "65638", "nome": "Introdução à Algoritmos", "ch": 144 },
+        { "codigo": "65645", "nome": "Introdução à Computação", "ch": 72 },
+        {
+          "codigo": "65649",
+          "nome": "Trabalho Interdisciplinar: Desenvolvimento de Aplicações Web",
+          "ch": 68,
+          "requisitos": [
+            { "tipo": "co", "codigo": "65638" },
+            { "tipo": "co", "codigo": "65642" }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "disciplinas": [
+        {
+          "codigo": "71605",
+          "nome": "Arquitetura de Computadores",
+          "ch": 42,
+          "requisitos": [{ "tipo": "pre", "codigo": "65645" }]
+        },
+        { "codigo": "71607", "nome": "Cálculo I", "ch": 108 },
+        {
+          "codigo": "71608",
+          "nome": "Desenvolvimento e Integração de Aplicações Web",
+          "ch": 72,
+          "requisitos": [
+            { "tipo": "pre", "codigo": "65642" },
+            { "tipo": "co", "codigo": "71609" }
+          ]
+        },
+        {
+          "codigo": "71606",
+          "nome": "Interação Humano-Computador",
+          "ch": 90,
+          "requisitos": [
+            { "tipo": "pre", "codigo": "65642" },
+            { "tipo": "pre", "codigo": "65644" }
+          ]
+        },
+        { "codigo": "71610", "nome": "Introdução à Pesquisa em Informática", "ch": 36 },
+        { "codigo": "71611", "nome": "Metodologias de Extensão Universitária", "ch": 72 },
+        {
+          "codigo": "71609",
+          "nome": "Programação Modular",
+          "ch": 144,
+          "requisitos": [{ "tipo": "pre", "codigo": "65638" }]
+        },
+        {
+          "codigo": "71612",
+          "nome": "Trabalho Interdisciplinar: Desenvolvimento Centrado no Usuário",
+          "ch": 56,
+          "requisitos": [
+            { "tipo": "co", "codigo": "71606" },
+            { "tipo": "co", "codigo": "71608" }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "disciplinas": [
+        { "codigo": "71617", "nome": "Bancos de Dados", "ch": 72 },
+        { "codigo": "71614", "nome": "Cálculo II", "ch": 108 },
+        { "codigo": "71615", "nome": "Engenharia de Requisitos de Software", "ch": 84 },
+        { "codigo": "71613", "nome": "Estruturas de Dados", "ch": 144 },
+        { "codigo": "71616", "nome": "Fundamentos de Sistemas Operacionais", "ch": 84 },
+        { "codigo": "71621", "nome": "Trabalho Interdisciplinar: Desenvolvimento de Aplicações para Sustentabilidade", "ch": 216 }
+      ]
+    },
+    {
+      "numero": 4,
+      "disciplinas": [
+        { "codigo": "71643", "nome": "Algoritmos em Grafos", "ch": 84 },
+        { "codigo": "71646", "nome": "Cultura e Práticas DevOps", "ch": 54 },
+        { "codigo": "71644", "nome": "Desenvolvimento de Carreira Internacional", "ch": 18 },
+        { "codigo": "71623", "nome": "Gerência de Projetos de Software", "ch": 60 },
+        { "codigo": "71652", "nome": "Gerência de Requisitos de Software", "ch": 18 },
+        { "codigo": "71650", "nome": "Optativa I", "ch": 18 },
+        { "codigo": "71627", "nome": "Projeto de Software", "ch": 120 },
+        { "codigo": "71648", "nome": "Redes de Computadores", "ch": 84 },
+        { "codigo": "71654", "nome": "Trabalho Interdisciplinar: Desenvolvimento de Sistemas em Ambientes de Produção", "ch": 192 }
+      ]
+    },
+    {
+      "numero": 5,
+      "disciplinas": [
+        { "codigo": "71664", "nome": "Análise e Projeto de Algoritmos", "ch": 84 },
+        { "codigo": "71657", "nome": "Desenvolvimento de Aplicações Móveis", "ch": 84 },
+        { "codigo": "71666", "nome": "Engenharia Econômica para Software", "ch": 42 },
+        { "codigo": "71656", "nome": "Estatística e Probabilidade", "ch": 108 },
+        { "codigo": "71662", "nome": "Fundamentos de Inteligência Artificial", "ch": 54 },
+        { "codigo": "71670", "nome": "Gestão da Produção de Software", "ch": 18 },
+        {
+          "codigo": "71660",
+          "nome": "Sistemas Distribuídos e Computação em Nuvem",
+          "ch": 72,
+          "requisitos": [{ "tipo": "pre", "codigo": "71648" }]
+        },
+        { "codigo": "71671", "nome": "Trabalho Interdisciplinar: Desenvolvimento de Aplicações Inovadoras", "ch": 74 }
+      ]
+    },
+    {
+      "numero": 6,
+      "disciplinas": [
+        { "codigo": "71674", "nome": "Arquitetura de Software", "ch": 84 },
+        { "codigo": "71675", "nome": "Ciência de Dados e Inteligência Artificial", "ch": 84 },
+        { "codigo": "71680", "nome": "Modelagem e Avaliação de Desempenho", "ch": 84 },
+        { "codigo": "71684", "nome": "Optativa II", "ch": 18 },
+        { "codigo": "71678", "nome": "Segurança em Desenvolvimento de Software", "ch": 72 },
+        { "codigo": "71676", "nome": "Teste de Software", "ch": 84 },
+        { "codigo": "71683", "nome": "Tópicos Especiais em Sistemas Computacionais", "ch": 18 },
+        { "codigo": "71688", "nome": "Trabalho Interdisciplinar: Engenharia de Arquiteturas Avançadas", "ch": 50 }
+      ]
+    },
+    {
+      "numero": 7,
+      "disciplinas": [
+        { "codigo": "70620", "nome": "Cultura Religiosa: Saberes e Tradições", "ch": 36 },
+        { "codigo": "71835", "nome": "Design de Interação e Experiência de Usuário", "ch": 36 },
+        { "codigo": "71691", "nome": "Medição e Experimentação em Engenharia de Software", "ch": 120 },
+        { "codigo": "71694", "nome": "Métodos Formais em Engenharia de Software", "ch": 84 },
+        { "codigo": "71706", "nome": "Seminários Avançados em Engenharia de Software", "ch": 36 },
+        { "codigo": "71692", "nome": "Site Reliability Engineering (SRE)", "ch": 84 },
+        { "codigo": "71702", "nome": "Tópicos Especiais em Engenharia de Software", "ch": 18 },
+        { "codigo": "71707", "nome": "Trabalho Interdisciplinar: Pesquisa e Avaliação Empírica", "ch": 50 }
+      ]
+    },
+    {
+      "numero": 8,
+      "disciplinas": [
+        { "codigo": "65491", "nome": "Cidadania e Responsabilidade Social", "ch": 36 },
+        { "codigo": "70577", "nome": "Cultura Religiosa: Humanismo, Sociedade e Ecologia Integral", "ch": 36 },
+        { "codigo": "71719", "nome": "Engenharia de Processos de Software", "ch": 48 },
+        { "codigo": "71007", "nome": "Filosofia: Antropologia e Ética", "ch": 36 },
+        { "codigo": "71718", "nome": "Manutenção e Evolução de Software", "ch": 84 },
+        { "codigo": "71836", "nome": "Modelagem de Processos de Negócio", "ch": 48 },
+        { "codigo": "71721", "nome": "Qualidade de Software", "ch": 84 },
+        { "codigo": "71722", "nome": "Trabalho de Conclusão de Curso", "ch": 144 }
+      ]
+    }
+  ]
+}
