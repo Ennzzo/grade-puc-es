@@ -211,8 +211,61 @@ function avisar(msg: string) {
   setTimeout(() => t.classList.remove("visivel"), 2200);
 }
 
+/**
+ * Arrastar a grade para os lados segurando o botão do mouse. No toque o
+ * navegador já rola sozinho, então só tratamos o mouse.
+ */
+function ligarArraste(grade: HTMLElement) {
+  const LIMIAR = 5; // px antes de considerar arraste, para não engolir cliques
+  let pressionado = false;
+  let arrastando = false;
+  let ignorarClique = false;
+  let inicioX = 0;
+  let scrollInicial = 0;
+
+  grade.addEventListener("pointerdown", (e) => {
+    if (e.pointerType !== "mouse" || e.button !== 0) return;
+    pressionado = true;
+    arrastando = false;
+    ignorarClique = false;
+    inicioX = e.clientX;
+    scrollInicial = grade.scrollLeft;
+  });
+
+  window.addEventListener("pointermove", (e) => {
+    if (!pressionado) return;
+    const dx = e.clientX - inicioX;
+    if (!arrastando && Math.abs(dx) > LIMIAR) {
+      arrastando = true;
+      grade.classList.add("arrastando");
+    }
+    if (arrastando) grade.scrollLeft = scrollInicial - dx;
+  });
+
+  window.addEventListener("pointerup", () => {
+    if (!pressionado) return;
+    pressionado = false;
+    if (arrastando) {
+      grade.classList.remove("arrastando");
+      ignorarClique = true; // o clique gerado ao soltar não deve alterar o card
+    }
+  });
+
+  grade.addEventListener(
+    "click",
+    (e) => {
+      if (!ignorarClique) return;
+      ignorarClique = false;
+      e.stopPropagation();
+      e.preventDefault();
+    },
+    { capture: true },
+  );
+}
+
 function ligarEventos() {
   const grade = $("#grade");
+  ligarArraste(grade);
 
   grade.addEventListener("click", (e) => {
     const alvo = e.target as HTMLElement;

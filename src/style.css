@@ -242,6 +242,20 @@ select {
   align-items: start;
 }
 
+#grade {
+  cursor: grab;
+}
+
+#grade.arrastando,
+#grade.arrastando * {
+  cursor: grabbing;
+  user-select: none;
+}
+
+#grade.arrastando .card:hover {
+  transform: none;
+}
+
 .periodo {
   display: flex;
   flex-direction: column;
