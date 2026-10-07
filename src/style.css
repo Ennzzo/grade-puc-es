@@ -11,8 +11,8 @@
   --pendente-texto: #a8949a;
   --cursando: #cfe6fb;
   --cursando-texto: #1c4f7a;
-  --cursada: #fff9a8;
-  --cursada-texto: #2b2a12;
+  --cursada: #c6efcb;
+  --cursada-texto: #14401f;
 
   --pre: #d9480f;
   --co: #7048e8;
@@ -38,8 +38,8 @@
     --pendente-texto: #8a7a80;
     --cursando: #173a59;
     --cursando-texto: #cfe6fb;
-    --cursada: #5c5716;
-    --cursada-texto: #fffbd0;
+    --cursada: #1f4d2b;
+    --cursada-texto: #d6f5da;
 
     --pre: #ff8a50;
     --co: #a18cff;
@@ -160,7 +160,7 @@ select {
 }
 
 .barra .cursada {
-  background: #e8d500;
+  background: #37b24d;
 }
 
 .barra .cursando {
