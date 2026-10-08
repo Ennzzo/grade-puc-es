@@ -1,6 +1,6 @@
 import "./style.css";
 import { curriculos } from "./data/curriculos";
-import { carregar, idNaUrl, linkCompartilhavel, salvar, vazio } from "./progress";
+import { carregar, limparHashAntigo, linkDoSite, salvar, ultimoCurriculo, vazio } from "./progress";
 import type { Curriculo, Disciplina, Ementa, Progresso, Status } from "./types";
 
 const NOME_STATUS: Record<Status, string> = { 0: "Pendente", 1: "Cursando", 2: "Cursada" };
@@ -28,7 +28,7 @@ const ICONE_CADEADO = `<svg class="cadeado" viewBox="0 0 24 24" aria-hidden="tru
 
 const $ = <T extends HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
 
-let cur: Curriculo = curriculos.find((c) => c.id === idNaUrl()) ?? curriculos[0];
+let cur: Curriculo = curriculos.find((c) => c.id === ultimoCurriculo()) ?? curriculos[0];
 let prog: Progresso = carregar(cur);
 let busca = "";
 
@@ -351,10 +351,10 @@ function ligarEventos() {
   );
 
   $("#copiar-link").addEventListener("click", async () => {
-    const link = linkCompartilhavel(cur, prog);
+    const link = linkDoSite();
     try {
       await navigator.clipboard.writeText(link);
-      avisar("Link copiado. Abra em outro dispositivo para ver o mesmo progresso.");
+      avisar("Link copiado. Quem abrir começa com a grade zerada; seu progresso fica só neste navegador.");
     } catch {
       prompt("Copie o link:", link);
     }
@@ -392,8 +392,8 @@ function ligarEventos() {
   });
 }
 
+limparHashAntigo();
 indexar();
 renderCabecalho();
 ligarEventos();
-salvar(cur, prog);
 render();

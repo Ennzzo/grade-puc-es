@@ -18,11 +18,10 @@ Grade curricular interativa de **Engenharia de Software da PUC Minas**, currícu
 
 ## Onde o progresso fica salvo
 
-Não há backend nem login:
+Não há backend nem login. O progresso fica **só no seu navegador** (localStorage), salvo automaticamente.
 
-- **No navegador** (localStorage), salvo automaticamente.
-- **Na URL**: o progresso é codificado no `#` do endereço. Use **Copiar link** para abrir o mesmo estado em outro dispositivo ou para mostrar a alguém.
-- **Exportar e Importar** geram e leem um arquivo JSON de backup.
+- **Copiar link** copia apenas o endereço do site. Quem abrir começa com a grade zerada e o progresso de cada pessoa fica no navegador dela.
+- **Exportar e Importar** geram e leem um arquivo JSON. Use para fazer backup ou levar o progresso para outro navegador ou dispositivo.
 
 ## Ementas
 
